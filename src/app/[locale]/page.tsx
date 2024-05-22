@@ -1,3 +1,4 @@
+import TestBoard from '@/components/TestBoard';
 import { getTranslations } from 'next-intl/server';
 
 export default async function HomePage() {
@@ -8,6 +9,7 @@ export default async function HomePage() {
       <h1 className="mx-auto w-fit py-12 text-2xl font-bold">
         {t('title')}
       </h1>
+      <TestBoard />
     </main>
   );
 };
