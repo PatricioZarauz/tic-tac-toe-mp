@@ -15,7 +15,7 @@ export default function ActionBox({ winner = false, style, actionType, onClickHa
         src={imagePath[actionType]}
         width={96}
         height={96}
-      /> : <button className="w-24 h-24 text-center" onClick={onClickHandler}>TEST</button>}
+      /> : <button className="w-24 h-24 text-center hover:shadow-lg" onClick={onClickHandler} />}
     </animated.div>
   );
 };
